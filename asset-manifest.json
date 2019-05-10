@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AnelVillegas/GDL002-burger-queen/static/css/main.2cce8147.chunk.css",
-    "main.js": "/AnelVillegas/GDL002-burger-queen/static/js/main.ace2734e.chunk.js",
-    "main.js.map": "/AnelVillegas/GDL002-burger-queen/static/js/main.ace2734e.chunk.js.map",
-    "runtime~main.js": "/AnelVillegas/GDL002-burger-queen/static/js/runtime~main.a261d94d.js",
-    "runtime~main.js.map": "/AnelVillegas/GDL002-burger-queen/static/js/runtime~main.a261d94d.js.map",
-    "static/js/2.b41502e9.chunk.js": "/AnelVillegas/GDL002-burger-queen/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/AnelVillegas/GDL002-burger-queen/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/AnelVillegas/GDL002-burger-queen/index.html",
-    "precache-manifest.86d98ad042eba441b78f413d0eadaf13.js": "/AnelVillegas/GDL002-burger-queen/precache-manifest.86d98ad042eba441b78f413d0eadaf13.js",
-    "service-worker.js": "/AnelVillegas/GDL002-burger-queen/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/AnelVillegas/GDL002-burger-queen/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/AnelVillegas/GDL002-burger-queen/static/media/logo.5d5d9eef.svg"
+    "main.css": "/GDL002-burger-queen/static/css/main.2cce8147.chunk.css",
+    "main.js": "/GDL002-burger-queen/static/js/main.0fcd42fa.chunk.js",
+    "main.js.map": "/GDL002-burger-queen/static/js/main.0fcd42fa.chunk.js.map",
+    "runtime~main.js": "/GDL002-burger-queen/static/js/runtime~main.2601196f.js",
+    "runtime~main.js.map": "/GDL002-burger-queen/static/js/runtime~main.2601196f.js.map",
+    "static/js/2.b41502e9.chunk.js": "/GDL002-burger-queen/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/GDL002-burger-queen/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/GDL002-burger-queen/index.html",
+    "precache-manifest.079efcddda21eb0d26fc5010ccc02ef9.js": "/GDL002-burger-queen/precache-manifest.079efcddda21eb0d26fc5010ccc02ef9.js",
+    "service-worker.js": "/GDL002-burger-queen/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/GDL002-burger-queen/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/GDL002-burger-queen/static/media/logo.5d5d9eef.svg"
   }
 }
