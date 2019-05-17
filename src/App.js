@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter,Route} from 'react-router-dom';
 import './App.css';
-import Button from './components/Button';
+import Button from './components/ButtonHome';
 import Home from './components/Home';
 import Breakfast from './components/Breakfast';
 import Lunch from './components/Lunch';
@@ -13,10 +13,14 @@ function App() {
     <BrowserRouter>
      <div className="App">
       <Route exact path="/"component={Home}/> 
-      <Route path="/Breakfast" component={Breakfast} />
+      <Route exact path="/Breakfast" component={Breakfast} />
+      <Route exact path="/Lunch" component={Lunch} />
+      <Route exact path="/Kitchen" component={Kitchen} />
+      <Route exact path="/"component={Button}/>
+   
+      
      </div>
-     <Button/>
-     <Button/>
+     
     
     </BrowserRouter>
   );

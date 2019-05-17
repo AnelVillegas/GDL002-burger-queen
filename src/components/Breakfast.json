@@ -1,0 +1,30 @@
+
+{
+    "Breakfast":
+[
+    {
+        "Name": "Café americano",
+        "Price": 5,
+        "Options": "null",
+        "Id":"american_coffee"
+    },
+    {
+        "Name": "Café con leche",
+        "Price": 7,
+        "Options":"null",
+        "Id":"latte" 
+    },  
+    {
+        "Name": "Sandwich de jamón y queso",
+        "Price": 10,
+        "options":"null",
+        "Id":"ham_chesse"
+    },
+    {
+        "Name": "Jugo de frutas natural",
+        "Price": 7,
+        "Options":"null",
+        "Id": "natural_juice"
+    }
+ ]
+}
