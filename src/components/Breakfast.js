@@ -3,7 +3,7 @@ import React from 'react';
 import {Breakfast} from './Breakfast.json'
 
 
-const showMenu = (props) => (
+const MenuBreakfast = (props) => (
     <div className ="main-content">
       <div className= "container">
         <h2> MENU DESAYUNO</h2>
@@ -26,4 +26,4 @@ const showMenu = (props) => (
 );
 
 
-export default showMenu;
+export default MenuBreakfast;
