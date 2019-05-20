@@ -1,28 +1,37 @@
 import React, { Fragment } from 'react';
 
 import {Breakfast} from './Breakfast.json'
-
+import ClientName from './ClientName'
 
 const MenuBreakfast = (props) => {
-  return (
-    <div>
+
+  return ( 
+ 
+    <div class="row no-gutters">
+    <ClientName/>
+    <div class="col-md-8">
+    <br/>
     <h5 class="card-title">{props.title}</h5>
+     <br/>
+    <br/>
     <Fragment >{Breakfast.map((menuDetail) =>{
       return (
-      <button className="card-body card col-md-4">
+      <button className="card-body-center card col-md-4">
     
             <div>
-              <p class="card-text">
+              <p class="card-text-center">
                 <div>
                   <h5 className="card-title">{menuDetail.Name}</h5>
                   <p className="card-text"> ${menuDetail.Price}</p>
                 </div>
               </p>
             </div>
+
        </button>
        )      
         })}
     </Fragment>
+    </div>
     </div>
 )
 
