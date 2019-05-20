@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Kitchen = () => (
+const Kitchen = (props) => (
     <div className = "main-content">
     <div className= "container">
-    <h2>Cocina</h2>
+    <h2 className= "title">{props.title}</h2>
     </div>
   </div>
   

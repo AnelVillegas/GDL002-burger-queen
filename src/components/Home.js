@@ -3,7 +3,7 @@ import React from 'react';
 
 
 
-const Home = () => (
+const Home = (props) => (
  
 <div className = "main-content">
   <div className= "container">
