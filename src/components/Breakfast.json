@@ -1,6 +1,5 @@
 
-{
-    "Breakfast":
+
 [
     {
         "Name": "Café americano",
@@ -27,4 +26,3 @@
         "Id": "natural_juice"
     }
  ]
-}
