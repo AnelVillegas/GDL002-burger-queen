@@ -44,16 +44,15 @@ class showBreakfastMenu extends Component  {
      }
      this.setState({
          orders:[...this.state.orders,order]
-     }, () => this.sumOrder())
+     },() => this.sumOrder())
 
   };
 
   sumOrder (){
-    console.log('sumOrder', this.state.total);
-    const priceArr =  this.state.orders.map((el)=>el.price)
+    const priceArr =  this.state.orders.map ((el)=>el.price)
     const items = priceArr.reduce((sum,result)=>{
       return sum + result;
-    }, 0);
+    });
     this.setState ({
       total: items
     });
@@ -104,15 +103,15 @@ class showBreakfastMenu extends Component  {
             <h5 className="card-title">Orden</h5>
               <br/>
               <br/>
-            <ul className="list-group col-md-12">
-              <Order className="card-body-right col-md-8" menuList={this.state.orders}/>
-            </ul>
+              <ul className="card-body-right col-md-12">
+               <Order className="card-body-right col-md-8" menuList={this.state.orders}/>
+              </ul>
+              <p className="card-body-right col-md-8" >{"Total" + "$" + this.state.total}</p>
+            {/*<div onClick = { this.sumOrder}>Total: ${this.state.total} </div>*/}
             
-            <p>{this.state.total}</p>
-            {/*<button onClick = { this.sumOrder}>Total: ${this.state.total} </button>*/}
-            <p></p>
            </div>
-        </div>
+           </div>
+       
    
   )
  }

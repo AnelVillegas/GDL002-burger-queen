@@ -41,7 +41,7 @@ class showLunchMenu extends Component  {
     }
     this.setState({
         orders:[...this.state.orders,order]
-    })
+    },() => this.sumOrder())
  }
 
  sumOrder (){
@@ -50,7 +50,7 @@ class showLunchMenu extends Component  {
      return sum + result;
    });
    this.setState ({
-     total: this.state.total + items
+     total:items
    });
  };
 
@@ -92,11 +92,13 @@ class showLunchMenu extends Component  {
             <h5 className="card-title">Orden</h5>
               <br/>
               <br/>
-            <Order className="card-body-right col-md-8" menuList={this.state.orders}/>
-            <button onClick = { this.sumOrder}>Total: ${this.state.total} </button>
-            <p></p>
+              <ul className="card-body-right col-md-12">
+               <Order className="card-body-right col-md-8" menuList={this.state.orders}/>
+              </ul>
+              <p className="card-body-right col-md-8" >{"Total" + "$" + this.state.total}</p>
+            
            </div>
-    </div> 
+       </div> 
     
   )    
   
