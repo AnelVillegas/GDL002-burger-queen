@@ -5,7 +5,7 @@ import Order from './Order';
 
 class showLunchMenu extends Component  {
   constructor () {
-    super()
+    super();
     this.state = {
       Breakfast:[],
       Lunch: [],
@@ -14,6 +14,7 @@ class showLunchMenu extends Component  {
     };
     this.submit = this.submit.bind(this);
     this.sumOrder = this.sumOrder.bind(this);
+    this.deleteItem=this.deleteItem.bind(this);
   };
 
   componentDidMount(){
@@ -43,6 +44,12 @@ class showLunchMenu extends Component  {
         orders:[...this.state.orders,order]
     },() => this.sumOrder())
  }
+ deleteItem(e,menu){
+  e.preventDefault(e)
+  this.setState(prevState => ({
+    orders: prevState.orders.filter(element=> element !==menu)
+  }))
+} 
 
  sumOrder (){
    const priceArr =  this.state.orders.map ((el)=>el.price)
@@ -53,6 +60,8 @@ class showLunchMenu extends Component  {
      total:items
    });
  };
+
+ 
 
   render() {
   return (
@@ -93,7 +102,8 @@ class showLunchMenu extends Component  {
               <br/>
               <br/>
               <ul className="card-body-right col-md-12">
-               <Order className="card-body-right col-md-8" menuList={this.state.orders}/>
+                
+               <Order className="card-body-right col-md-8" menuList={this.state.orders} clickDelete={this.deleteItem}/>
               </ul>
               <p className="card-body-right col-md-8" >{"Total" + "$" + this.state.total}</p>
             
