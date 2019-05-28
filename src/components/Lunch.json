@@ -1,0 +1,53 @@
+
+
+[
+{
+    "Name": "Hamburguesa simple",
+    "Price": 10,
+    "Options": ["Res", "Pollo", "Vegetariana"],
+    "Id": "simple_hamburguer"
+},
+{
+    "Name": "Hamburguesa doble",
+    "Price": 15,
+    "Options": ["Res", "Pollo", "Vegetariana"],
+    "Id": "double_hamburguer"
+},
+{
+    "Name": "Papas fritas",
+    "Price": 5,
+    "Options":"null",
+    "Id": "french_fries"
+},
+{
+    "Name": "Aros de cebolla",
+    "Price": 5,
+    "Options":"null",
+    "Id": "onions_rings"
+},
+{
+    "Name": "Agua 500ml",
+    "Price": 5,
+    "Options":"null",
+    "Id": "500water"
+},
+{
+    "Name": "Agua 750ml",
+    "Price": 7,
+    "Options":"null",
+    "Id": "750water"
+},
+{
+    "Name": "Gaseosa 500ml",
+    "Price": 7,
+    "Options":"null",
+    "Id": "500soda"
+},
+{
+    "Name": "Gaseosa 750ml",
+    "Price": 10,
+    "Options":"null",
+    "Id": "750soda"
+  }
+ ]
+
