@@ -134,6 +134,10 @@ p{
   background-color: white;
   color: #df0052;
 }
+.btn btn-outline-danger{
+  background-color: white;
+  color: #df0052;
+}
 
 @media screen and (min-width:780px) and (max-width: 1024px){
 

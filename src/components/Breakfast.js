@@ -4,6 +4,7 @@ import React, { Fragment, Component } from 'react';
 import firebase from '../firebase/startFb';
 import ClientName from './ClientName';
 import Order from './Order';
+import BtnToKitchen from './BtnToKitchen';
 
 class showBreakfastMenu extends Component  {
   constructor () {
@@ -68,6 +69,8 @@ class showBreakfastMenu extends Component  {
   }
 
 
+
+
   render() {
   return ( 
      
@@ -91,7 +94,7 @@ class showBreakfastMenu extends Component  {
                         <div>
                           
                           <p className="card-text">{menuDetail.Name} {"$"+menuDetail.Price} </p>
-                          
+                         
                           
                         </div>
                       </div>
@@ -102,7 +105,7 @@ class showBreakfastMenu extends Component  {
               )      
               
               
-            })
+            }
                 
             </Fragment>
             </div>
@@ -118,8 +121,15 @@ class showBreakfastMenu extends Component  {
               <p className="card-body-right col-md-8" >{"Total" + "$" + this.state.total}</p>
             {/*<div onClick = { this.sumOrder}>Total: ${this.state.total} </div>*/}
             
+            <div className="col bg-transparent">
+              
+             </div> 
+             {console.log(this.state.orders)}
+              <BtnToKitchen order={this.state.orders} />
+
+            </div>
            </div>
-           </div>
+          
        
    
   )
